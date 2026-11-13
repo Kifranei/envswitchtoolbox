@@ -1,0 +1,10 @@
+bin/
+obj/
+out/
+*.user
+*.suo
+.vs/
+*.swp
+# 本地配置，切勿提交
+profiles.json
+!examples/*.json

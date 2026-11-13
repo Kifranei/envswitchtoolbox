@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "profiles": [
+    {
+      "name": "示例地点 A",
+      "network": "192.0.2.0",
+      "mask": "255.255.255.0",
+      "hosts": [
+        { "domain": "app.example.com", "ip": "192.0.2.10" },
+        { "domain": "registry.example.com", "ip": "192.0.2.10" }
+      ],
+      "pingIp": "192.0.2.10",
+      "fallbackGateway": "",
+      "adapterKeyword": "Realtek"
+    },
+    {
+      "name": "示例地点 B",
+      "network": "198.51.100.0",
+      "mask": "255.255.255.0",
+      "hosts": [
+        { "domain": "app.example.com", "ip": "198.51.100.20" },
+        { "domain": "registry.example.com", "ip": "198.51.100.21" }
+      ],
+      "pingIp": "198.51.100.20",
+      "fallbackGateway": "198.51.100.1",
+      "adapterKeyword": "Ethernet"
+    }
+  ]
+}
